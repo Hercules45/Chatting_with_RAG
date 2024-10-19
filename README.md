@@ -17,7 +17,6 @@ repositories for more accurate assistance.
 - **RAG-powered Responses**: Utilizes uploaded documents or enter a GitHub repository to provide context-aware answers. 
 - **Chat With Files**: Support for uploading additional context files. 
 - **Chat with a GitHub Repo:** Support for using a GitHub repositories files as context for the model.
-- **Chat With a Database:** Support of connecting a new or existing database. **(Coming Soon)**
 - **Custom Prompts**: Ability to set custom system prompts for the chat engine.
 - **Enhanced Memory Management**: Dynamically manage chat memory for different models.
 - **Streaming Responses**: Real-time response generation for a more interactive experience.
@@ -31,12 +30,19 @@ repositories for more accurate assistance.
 3. Set up your .env file with the following:
    ```bash
    GRADIO_TEMP_DIR="YourPathTo/Chat-RAG/data"
+   
    GRADIO_WATCH_DIRS="YourPathTo/Chat-RAG"
+   
    HUGGINGFACE_HUB_TOKEN="YOUR HF TOKEN HERE"
+   
    NVIDIA_API_KEY="YOUR NVIDIA API KEY HERE"
+   
    OPENAI_API_KEY="YOUR OpenAI API KEY HERE"
+   
    ANTHROPIC_API_KEY="YOUR Anthropic API KEY HERE"
+   
    GITHUB_PAT="YOUR GITHUB PERSONAL ACCESS TOKEN HERE"
+   
    LLAMA_CLOUD_API_KEY="YOUR LLAMA_CLOUD_API_KEY"
    ```
 4. Run the application:
