@@ -75,15 +75,3 @@ python app.py
 ![RAG Query Example](pics/RAG_Query.png "RAG Query Example")
 
 
-### Contributing
-Contributions are welcome! Please feel free to submit a Pull Request or Fork the Repository.
-
-
-### Coming in Future Updates
-- Video of the program in action.
-- Add the ability to load an existing Neo4j DB into the model
-- The ability to add models to the list for different model providers.
-
-
-### Need Help or Have Feature Suggestions?
-Feel free to reach out to me through GitHub, LinkedIn, or through email. All of those are available on my website [JFCoded](https://www.jfcoded.com/contact).
